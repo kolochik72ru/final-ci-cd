@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+//comment
 var (
 	randSource = rand.NewSource(time.Now().UnixNano())
-	// randRange использует randSource для генерации случайных чисел
 	randRange = rand.New(randSource)
 )
 

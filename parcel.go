@@ -78,6 +78,7 @@ func (s ParcelStore) SetStatus(number int, status string) error {
 	return err
 }
 
+// comment
 func (s ParcelStore) SetAddress(number int, address string) error {
 	_, err := s.db.Exec("UPDATE parcel SET address = :address WHERE number = :number AND status = :status",
 		sql.Named("address", address),
@@ -94,3 +95,6 @@ func (s ParcelStore) Delete(number int) error {
 
 	return err
 }
+
+//
+//

@@ -1,7 +1,8 @@
 module github.com/kolochik72ru/final-ci-cd
 
 go 1.22
-
+//
+//comment
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
